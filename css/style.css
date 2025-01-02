@@ -172,3 +172,18 @@ section .d-flex div {
 section .d-flex div:hover {
     background-color: #d9dee3; 
 }
+
+ 
+
+ 
+.card-body a {
+    text-align: center;
+    margin: 0.5rem 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Ajusta según tu preferencia */
+    height: 40px; /* Ajusta según tu preferencia */
+}
+
+ 
