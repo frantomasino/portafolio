@@ -328,7 +328,7 @@
         </section>
     </main>
     <footer class="bg-dark text-white text-center p-4">
-        <p class="text-white">&copy; 2024 Francisco Tomasino Solari</p>   
+        <p class="text-white">&copy; 2025 Francisco Tomasino Solari</p>   
         <a href="https://www.linkedin.com/in/francisco-tomasino/" class="btn btn-link text-white" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-linkedin"></i> Linkedin
         </a>
@@ -341,8 +341,24 @@
         <a href="https://wa.me/5491131256510" class="btn btn-link text-white" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-whatsapp"></i> WhatsApp
         </a>     
+    
+        <a href="#" id="scrollToTop" class="btn btn-link text-white" role="button">
+            <i class="fas fa-arrow-up"></i> Ir arriba
+        </a>
+        
     </footer>
+    
     <script>
+ const scrollToTopButton = document.getElementById("scrollToTop");
+
+ scrollToTopButton.addEventListener("click", (event) => {
+    event.preventDefault(); 
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+});
+
         document.addEventListener("DOMContentLoaded", function () {
             const sections = document.querySelectorAll("section");
             const options = { threshold: 0.1 };
