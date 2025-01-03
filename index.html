@@ -288,11 +288,9 @@
 
 <section class="my-4 text-center">
     <a href="imagenes/curriculum.pdf" class="btn btn-success btn-lg" download>
-        <i class="fas fa-file-pdf"></i> Descargar CV
+        Descargar CV <i class="fas fa-download"></i> 
     </a>
 </section>
-
-
 
         <br>
         <section class="my-4 mx-3 text-center">
@@ -341,11 +339,10 @@
         <a href="https://wa.me/5491131256510" class="btn btn-link text-white" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-whatsapp"></i> WhatsApp
         </a>     
-    
+         
         <a href="#" id="scrollToTop" class="btn btn-link text-white" role="button">
-            <i class="fas fa-arrow-up"></i> Ir arriba
-        </a>
-        
+            <i class="fas fa-arrow-up"></i>
+        </a>    
     </footer>
     
     <script>
@@ -357,24 +354,7 @@
         top: 0,
         behavior: "smooth",
     });
-});
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const sections = document.querySelectorAll("section");
-            const options = { threshold: 0.1 };
-    
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("visible");
-                    }
-                });
-            }, options);
-    
-            sections.forEach((section) => {
-                observer.observe(section);
-            });
-        });
+});   
     </script>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
